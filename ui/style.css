@@ -3,6 +3,9 @@ body {
     background-color: lightgrey;
     margin-top: 75px;
     background-image: url("http://www.awwwards.com/awards/images/2015/04/pattern.jpg");
+    background-size: cover;
+  color: #ffffff;
+}
 }
 
 .center {
