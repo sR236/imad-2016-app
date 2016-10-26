@@ -13,7 +13,7 @@ footer .row {
   align-items: center;
 }
 
-header h1 {
+header ,h1 {
   font-weight: 700;
   margin: 0;
 }
@@ -38,14 +38,14 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
-.jumbotron h2 {
+.jumbotron, h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
   color: #fff;
 }
 
-.jumbotron h3 {
+ .jumbotron ,h3 {
   margin: 0 0 20px;
   color: #fff;
 }
@@ -59,15 +59,15 @@ section .row img {
   margin: 0 0 30px;
 }
 
-.btn.btn-primary {
+.btn .btn-primary {
   border-radius: 2px;
-  border: 0px;
+  border: 1px;
   color: #fbd1d5;
   text-shadow: none;
   background-color: #ffffff;
 }
 
-.btn.btn-primary:hover {
+.btn .btn-primary:hover {
   color: #ffffff;
   background-color: #fbd1d5;
 }
