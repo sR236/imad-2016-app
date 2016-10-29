@@ -25,7 +25,7 @@ body{
 	width: 35%;
 	margin-top: 15px;
 	font-family: georgia;
-	display: ;
+	display: inline-block;
 }
 /* but try and be as concise as possible */
 #nav{
