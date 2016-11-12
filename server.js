@@ -14,7 +14,7 @@ app.get ('/about', function (req, res) {
 });
 
 app.get('/gallary', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'contact.html'));
+  res.sendFile(path.join(__dirname, 'ui', 'gallary.html'));
 });
 
 app.get('/Article', function (req, res) {
